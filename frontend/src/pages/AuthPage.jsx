@@ -40,7 +40,7 @@ export default function AuthPage() {
   }
 
   const inputClass =
-    "block w-full rounded-md border border-line bg-white px-3 py-2.5 text-[15px] outline-none focus:border-moss focus:ring-2 focus:ring-moss/20";
+    "block w-full rounded-md border border-line bg-white px-3 py-2.5 text-[15px] outline-none focus:border-emerald-600 focus:ring-2 focus:ring-emerald-600/20";
 
   return (
     <div className="grid min-h-screen lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)]">
@@ -137,7 +137,7 @@ export default function AuthPage() {
             <button
               type="submit"
               disabled={submitting}
-              className="w-full rounded-md bg-moss px-4 py-2.5 font-medium text-white transition-colors hover:bg-moss-dark disabled:opacity-60"
+              className="w-full rounded-md bg-emerald-600 px-4 py-2.5 font-medium text-white transition-colors hover:bg-emerald-700 disabled:opacity-60"
             >
               {submitting
                 ? isSignUp
@@ -154,7 +154,7 @@ export default function AuthPage() {
             <button
               type="button"
               onClick={switchMode}
-              className="font-medium text-moss underline underline-offset-4 hover:text-moss-dark"
+              className="font-medium text-emerald-600 underline underline-offset-4 hover:text-emerald-700"
             >
               {isSignUp ? "Sign in" : "Create an account"}
             </button>
