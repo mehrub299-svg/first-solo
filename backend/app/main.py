@@ -21,7 +21,7 @@ app.add_middleware(
     allow_origins=[
         "http://127.0.0.1:5173", 
         "http://localhost:5173",
-        "https://fast-solo-web.onrender.com"
+        "https://fist-solo-web.onrender.com"
     ],
     allow_credentials=True,  # needed for the refresh-token cookie
     allow_methods=["*"],
