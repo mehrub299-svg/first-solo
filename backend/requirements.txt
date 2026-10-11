@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+asyncpg
+alembic
+pgvector
+pydantic-settings
+email-validator
+pwdlib[argon2]
+pyjwt
+python-multipart
+openai
+pypdf
+python-docx
