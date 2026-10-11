@@ -5,8 +5,9 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
-COPY requirements-dev.lock ./
-RUN pip install --no-cache-dir -r requirements-dev.lock
+# Switched from the dev lock file to your updated text file
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
